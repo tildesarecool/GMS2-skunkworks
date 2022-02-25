@@ -16,7 +16,6 @@ if ( !view_enabled &&  view_visible[0] != true ) {
 	view_visible[0] = true; 
 	view_enabled = true;
 }
-
 // setting size of camera
 // reference for the camera_set_view_size:
 // https://manual-en.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FCameras_And_Display%2FCameras_And_Viewports%2Fcamera_set_view_size.htm
@@ -24,14 +23,16 @@ if ( !view_enabled &&  view_visible[0] != true ) {
  //https://manual-en.yoyogames.com/#t=GameMaker_Language%2FGML_Reference%2FCameras_And_Display%2FCameras_And_Viewports%2Fview_camera.htm
  //
 camera_set_view_size( view_camera[0], cameraWidth, cameraHeight  );
-
 //Display
 
 //displayScale = 2; // I'll keep this for later
 displayWidth = 1000; // I'll just hard set this
 displayHeight = 1000; // I'll just hard set this
+//window_set_size( displayWidth, displayHeight );
 
-window_set_size( displayWidth, displayHeight );
+
+
+
 
 // surface related setup
 // reference for application surface
@@ -42,7 +43,6 @@ window_set_size( displayWidth, displayHeight );
 // just "hand it off the OS and let it do the work" sort of a vibe. I assume.
 // so this just uses that applicaiton surface as the "surface id" since custom surfaces can be created
 surface_resize( application_surface, displayWidth, displayHeight );
-
 // next we need to "center" the game window but this has to be in a later frame than "room start" so an alarm is used
 // alarm 0 just says "window_center();". that's it.
 alarm[0] = 1; // center 1 frame in
