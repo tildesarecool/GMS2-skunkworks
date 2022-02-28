@@ -1,9 +1,64 @@
 /// @description stuff related to the camera setup
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // these variables are decalared in the "room start" event
 
 //the if probably isn't necessary in this case but 
 // i don't think it hurts either
+/*
 if ( instance_exists(target) ) {
 	cameraX = target.x - ( cameraWidth / 2 );
 	cameraY = target.y - ( cameraHeight / 2 );
@@ -25,5 +80,6 @@ You give the unique camera ID value (as returned by the different camera_create(
 functions) and then give the x and y positions to set the camera to.
 
 */
-
+/*
 camera_set_view_pos( view_camera[0], cameraX, cameraY );
+*/

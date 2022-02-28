@@ -1,7 +1,56 @@
 /// @description camera setup
 
 // camera
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // for uses of these variables see the step event
+
+/*
 cameraX = 0;
 cameraY = 0;
 target = obj_player;
@@ -53,3 +102,4 @@ alarm[0] = 1; // center 1 frame in
 // well as demonstrated in the video so the lives/score values remain in the upper left as the camera moves round
 // without anything written on the screen with a draw event below should not change anything
 display_set_gui_maximize( cameraWidth, cameraHeight );
+*/
