@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tree01",
-    "path": "sprites/spr_tree01/spr_tree01.yy",
+    "name": "spr_store01",
+    "path": "sprites/spr_store01/spr_store01.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tree01",
+  "name": "obj_store01",
   "tags": [],
   "resourceType": "GMObject",
 }

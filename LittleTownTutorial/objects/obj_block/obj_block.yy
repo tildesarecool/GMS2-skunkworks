@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_tree01",
-    "path": "sprites/spr_tree01/spr_tree01.yy",
+    "name": "spr_block",
+    "path": "sprites/spr_block/spr_block.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tree01",
+  "name": "obj_block",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tree01",
-    "path": "sprites/spr_tree01/spr_tree01.yy",
+    "name": "spr_fence01",
+    "path": "sprites/spr_fence01/spr_fence01.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tree01",
+  "name": "obj_fence01",
   "tags": [],
   "resourceType": "GMObject",
 }

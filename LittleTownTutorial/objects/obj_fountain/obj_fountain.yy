@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tree01",
-    "path": "sprites/spr_tree01/spr_tree01.yy",
+    "name": "spr_fountain_strip05",
+    "path": "sprites/spr_fountain_strip05/spr_fountain_strip05.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tree01",
+  "name": "obj_fountain",
   "tags": [],
   "resourceType": "GMObject",
 }

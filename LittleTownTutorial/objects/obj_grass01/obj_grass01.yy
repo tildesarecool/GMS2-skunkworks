@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tree01",
-    "path": "sprites/spr_tree01/spr_tree01.yy",
+    "name": "spr_grass01",
+    "path": "sprites/spr_grass01/spr_grass01.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_tree01",
+  "name": "obj_grass01",
   "tags": [],
   "resourceType": "GMObject",
 }
