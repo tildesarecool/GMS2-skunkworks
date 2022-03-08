@@ -64,6 +64,15 @@ if ( vx != 0 || vy != 0 ) {
 	}
 }
 
+nearbyNPC = collision_rectangle(x - lookRange, y - lookRange, x + lookRange, y + lookRange, obj_par_npc, false, true);
+if ( nearbyNPC ) {
+	show_debug_message("obj_player has found an NPC!");
+}
+
+if ( !nearbyNPC ) {
+	show_debug_message("obj_player hasn't found anything");
+}
+
 // depth sorting
 
 depth =- y;
